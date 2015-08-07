@@ -11,7 +11,9 @@ sudo apt-get install -V couchdb
 
 # install helpful things
 sudo apt-get install git -y
-sudo apt-get install nodejs -y
+sudo apt-get install curl -y
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -y nodejs
 sudo apt-get install npm -y
 
 sudo npm install -g forever
